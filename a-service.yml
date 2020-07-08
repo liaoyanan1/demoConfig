@@ -5,3 +5,12 @@ eureka:
 
 A: 2
 #刷新 http://localhost:8080/actuator/refresh
+security:
+  oauth2:
+    client:
+      clientId: SampleClientId
+      clientSecret: clientsecret
+      accessTokenUri: http://localhost:8899/oauth/token
+      userAuthorizationUri: http://localhost:8899/oauth/authorize
+    resource:
+      userInfoUri: http://localhost:8899/user/me

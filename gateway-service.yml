@@ -14,9 +14,9 @@ spring:
           uri: lb://a-service
           order: 100
           predicates:
-            - Path=/getA/**
+            - Path=/A/**
         - id: b-service
           uri: lb://b-service
           order: 100
           predicates:
-            - Path=/getB/**
+            - Path=/B/**

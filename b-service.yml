@@ -5,8 +5,8 @@ eureka:
 security:
   oauth2:
     client:
-      clientId: SampleClientId
-      clientSecret: clientsecret
+      clientId: lyn
+      clientSecret: 123456
       accessTokenUri: http://localhost:8899/oauth/token
       userAuthorizationUri: http://localhost:8899/oauth/authorize
     resource:

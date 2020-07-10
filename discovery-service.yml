@@ -9,6 +9,6 @@ eureka:
 spring:
   security:
     user:
-      name: discovery
-      password: discoverypassword
+      name: lyn
+      password: 123456
     

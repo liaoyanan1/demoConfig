@@ -7,7 +7,9 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
 security:
-  basic: true
-  user: discovery
-  password: discoverypassword
+  basic: 
+    enabled: true
+  user:
+    name: discovery
+    password: discoverypassword
     

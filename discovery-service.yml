@@ -10,6 +10,6 @@ security:
   basic: 
     enabled: true
   user:
-    name: discovery
-    password: discoverypassword
+    name: lyn
+    password: 123456
     

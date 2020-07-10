@@ -6,10 +6,9 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
     register-with-eureka: false
     fetch-registry: false
-security:
-  basic: 
-    enabled: true
-  user:
-    name: lyn
-    password: 123456
+spring:
+  security:
+    user:
+      name: discovery
+      password: discoverypassword
     

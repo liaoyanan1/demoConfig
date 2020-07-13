@@ -15,3 +15,12 @@ spring:
           order: 100
           predicates:
             - Path=/B/**
+security:
+  oauth2:
+    client:
+      clientId: lyn
+      clientSecret: 123456
+      accessTokenUri: http://localhost:8899/oauth/token
+      userAuthorizationUri: http://localhost:8899/oauth/authorize
+    resource:
+      userInfoUri: http://localhost:8899/user/me

@@ -1,14 +1,6 @@
 server:
   port: 8899
 
-
-      
-eureka:
-  client:
-    service-url:
-     defaultZone: http://lyn:123456@127.0.0.1:8761/eureka/
-  instance:
-    prefer-ip-address: true
 spring:
     datasource:
       username: root

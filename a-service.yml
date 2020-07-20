@@ -5,7 +5,7 @@ security:
     client:
       clientId: lyn
       clientSecret: 123456
-      accessTokenUri: http://10.18.8.230:8899/oauth/token
-      userAuthorizationUri: http://10.18.8.230:8899/oauth/authorize
+      accessTokenUri: http://10.18.8.230:8899/oauth/oauth/token
+      userAuthorizationUri: http://10.18.8.230:8899/oauth/oauth/authorize
     resource:
-      userInfoUri: http://10.18.8.230:8899/user/me
+      userInfoUri: http://10.18.8.230:8899/oauth/user/me

@@ -1,6 +1,8 @@
 security:
   oauth2:
     client:
+      clientId: lyn
+      clientSecret: 123456
       accessTokenUri: http://10.18.8.230:8899/oauth/oauth/token
       userAuthorizationUri: http://10.18.8.230:8899/oauth/oauth/authorize
       clientAuthenticationScheme: form

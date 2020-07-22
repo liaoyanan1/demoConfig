@@ -1,7 +1,6 @@
 server:
   port: 8899
-  servlet:
-    context-path: /oauth
+
 spring:
     datasource:
       username: root

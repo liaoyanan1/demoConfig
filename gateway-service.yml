@@ -1,25 +1,4 @@
 spring:
-  cloud:
-    gateway:
-      discovery:
-        locator:
-          enabled: true
-      routes:
-        - id: a-service
-          uri: lb://a-service
-          order: 100
-          predicates:
-            - Path=/A/**
-        - id: b-service
-          uri: lb://b-service
-          order: 100
-          predicates:
-            - Path=/B/**
-        - id: oauth2
-          uri: http://192.168.3.103:8899
-          order: 100
-          predicates:
-            - Path=/oauth/**
   datasource:
     username: root
     password: 1995

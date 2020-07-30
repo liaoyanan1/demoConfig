@@ -1,2 +1,2 @@
 A: 1
-#刷新 http://localhost:8080/actuator/refresh
+#post请求 刷新 http://localhost:8080/actuator/refresh

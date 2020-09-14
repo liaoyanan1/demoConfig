@@ -6,9 +6,5 @@ eureka:
       defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@${eureka.instance.hostname}:${server.port}/eureka/,http://${eureka.instance.hostname}:8762/eureka/
     register-with-eureka: false
     fetch-registry: false
-spring:
-  security:
-    user:
-      name: lyn
-      password: 123456
+
     
